@@ -56,3 +56,12 @@ cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cook
 ```
 
 Se usa checkout porque la estructura no esta en la rama principal
+
+## Crear plantillas de proyecto personalizadas
+
+Creando una estructura de archivos con cookiecutter
+
+## Implementar hooks
+
+Puede hacer falta que ciertos nombres cumplan un formato, para lo cual se hace uso de hooks y expresiones regulares para lograr este objetivo.
+
