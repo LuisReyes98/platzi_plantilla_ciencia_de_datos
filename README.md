@@ -65,3 +65,6 @@ Creando una estructura de archivos con cookiecutter
 
 Puede hacer falta que ciertos nombres cumplan un formato, para lo cual se hace uso de hooks y expresiones regulares para lograr este objetivo.
 
+## Distribuir plantilla de proyecto
+
+para facilitar la distribucion de la plantilla de proyecto, se crea un repositorio publico de github que contenga la carpeta con la plantilla de proyecto.
