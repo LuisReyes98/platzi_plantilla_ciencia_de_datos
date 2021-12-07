@@ -68,3 +68,23 @@ Puede hacer falta que ciertos nombres cumplan un formato, para lo cual se hace u
 ## Distribuir plantilla de proyecto
 
 para facilitar la distribucion de la plantilla de proyecto, se crea un repositorio publico de github que contenga la carpeta con la plantilla de proyecto.
+
+y para usar la plantilla en local era
+
+```sh
+cookiecutter .
+```
+
+ahora con el repositorio publico es
+
+```sh
+cookiecutter ${url de github}
+```
+
+## Manejo de rutas: problemática
+
+una problematica posible es que la definicion de rutas de archivos son diferentes dependiendo del sistema operativo, Siendo estos MacOs, Windows o Linux.
+
+```sh
+cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cookiecutter-personal-platzi
+```
