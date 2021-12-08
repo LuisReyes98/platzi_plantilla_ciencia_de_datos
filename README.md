@@ -88,3 +88,13 @@ una problematica posible es que la definicion de rutas de archivos son diferente
 ```sh
 cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cookiecutter-personal-platzi
 ```
+
+## Manejo de rutasdel sistema: OS
+
+Creando la siguiente ruta sin importar el sistema operativo *./data/raw/*
+
+## Manejo de rutas del sistema: Pathlib
+
+Manejando rutas con pathlib
+
+## Manejo de rutas del sistema: PyFilesystem2
