@@ -98,3 +98,11 @@ Creando la siguiente ruta sin importar el sistema operativo *./data/raw/*
 Manejando rutas con pathlib
 
 ## Manejo de rutas del sistema: PyFilesystem2
+
+## Crear referencias relativas de archivos
+
+## Descarga de plantilla y configuración de ambiente virtual
+
+```sh
+cookiecutter git@github.com:jvelezmagic/cookiecutter-conda-data-science.git
+```
