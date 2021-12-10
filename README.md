@@ -106,3 +106,13 @@ Manejando rutas con pathlib
 ```sh
 cookiecutter git@github.com:jvelezmagic/cookiecutter-conda-data-science.git
 ```
+
+## Utilizar proyecto como un módulo de Python
+
+Instalar la carpeta actual como un modulo de python, que reaccione a las ediciones
+
+```sh
+pip install --editable .
+```
+
+para permitir que el kernel ejecute autoreload de la libreria que estas editando
