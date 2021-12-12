@@ -132,3 +132,10 @@ ademas tambien se puede llamar un notebook de la sigueinte manera
 %run "0-0-dbz-download_data.ipynb"
 ```
 
+## Aplica estas herramientas
+
+Utilizar herramientas de plantillas de entornos de trabajo hara que te agradezca para lograr iniciar proyectos y mantenerlos de forma mas eficaz.
+
+Ajiliza el trabajo
+
+reduce la fatiga por decision
