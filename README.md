@@ -109,10 +109,26 @@ cookiecutter git@github.com:jvelezmagic/cookiecutter-conda-data-science.git
 
 ## Utilizar proyecto como un módulo de Python
 
-Instalar la carpeta actual como un modulo de python, que reaccione a las ediciones
+Instalar la carpeta actual como un modulo de python, que reaccione a las ediciones.
 
 ```sh
 pip install --editable .
 ```
 
 para permitir que el kernel ejecute autoreload de la libreria que estas editando
+
+```python
+%load_ext autoreload
+%autoreload 2
+```
+
+## Flujo de trabajo de los notebooks
+
+Es muy util separar las secciones del notebook que ya estan listas en notebooks diferentes para poder trabajar en ellas de forma mas organizada.
+
+ademas tambien se puede llamar un notebook de la sigueinte manera
+
+```sh
+%run "0-0-dbz-download_data.ipynb"
+```
+
